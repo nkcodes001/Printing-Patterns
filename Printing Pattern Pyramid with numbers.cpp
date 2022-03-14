@@ -8,7 +8,7 @@ using namespace std;
    int i,j,n;
    cin>>n;
    for(i=1;i<n;i++){
-       for(j=1;j<=i;j++ && i++){
+       for(j=1;j<=i;j++){
            cout<<i<<" ";
        }
        cout<<"\n";
@@ -22,8 +22,9 @@ int main(){
    int i,j,n;
    cin>>n;
    for(i=1;i<n;i++){
-       for(j=1;j<=i;j++&& i++){
+       for(j=1;j<=i;j++){
            cout<<i<<" ";
+          cout++;
        }
        cout<<"\n";
    }
